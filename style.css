@@ -82,6 +82,10 @@ body {
     margin-top: 5px;
 }
 
+.btn-reset:hover {
+    background-color: #b32642;
+}
+
 .hide {
     display: none;
 }
