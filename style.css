@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+    color: white;
+    box-sizing: border-box;
+    /* font-family: 'Rancho', cursive; */
+    /* font-family: 'Delius', cursive; */
+    /* font-family: 'Chilanka', cursive; */
+}
+
+body {
+    background-color: #777;
+    height: 100vh;
+}
+
+.main-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #333;
+    height: 96vh;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.whose-turn {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 4rem;
+    min-width: 100px;
+    min-height: 100px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+}
+
+.announcer {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.btn-reset {
+    padding: 8px;
+    background-color: #FF3860;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.hide {
+    display: none;
+}
