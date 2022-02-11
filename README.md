@@ -1,2 +1,2 @@
 # tic-tac-toe
-Moralis - Intro to Javascript assignment solution
+Moralis - Intro to Javascript assignment
